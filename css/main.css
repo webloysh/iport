@@ -1,0 +1,198 @@
+*::-webkit-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*::-moz-placeholder {
+	color: #666;
+	opacity: 1;
+}
+*:-ms-input-placeholder {
+	color: #666;
+	opacity: 1;
+}
+
+body input:focus:required:invalid,
+body textarea:focus:required:invalid {
+	
+}
+body input:required:valid,
+body textarea:required:valid {
+	
+}
+body {
+	font-family: "RobotoRegular", sans-serif;
+	font-size: 16px;
+}
+
+.top_header {
+	background-image: url("../img/bkg_main.png");
+	background-position: -174px -40px;
+	background-repeat: no-repeat;
+	min-height: 813px;
+}
+
+.top_contacts {
+	display: block;
+	margin-top: 10px;
+	float: left;
+}
+.top_contacts span {
+	color: #753f02;
+
+}
+.top_links {
+	float: right;
+}
+
+
+.top_mnu ul {
+	list-style-type: none;
+	margin-top: 50px;
+	padding: 0;
+	text-decoration-color: #154040;
+}
+
+.header_topline {
+	background-color: rgba(0,0,0,0.1);
+	height: 100px;
+	font-family: "RobotoRegular";
+	font-size: 20px;
+}
+
+
+.top_mnu li {
+	display: inline-block;
+}
+
+.top_mnu a {
+	color: #517c7c;
+	padding: 0 15px 0 0;
+}
+
+.top_mnu li.active
+{
+
+}
+
+.top_mnu a:hover
+{
+	color: #79a4a4;
+}
+
+.header_info h1 {
+	font-family: "RobotoBold";
+	color: #276883;
+}
+.header_info p {
+	font-family: "BenderRegular";
+	font-size: 24px;
+	color: #5d834b;
+}
+
+.top_mnu_button {
+	background-color: transparent;
+	border: 0 none;
+	color: #fff;
+	font-size: 26px;
+	float: right;
+}
+
+.button {
+	display: block;
+	padding: 0 70px;
+	border: 0;
+	background-color: #33829a;
+	font-family: "RobotoRegular";
+	font-size: 30px;
+	color: #e2ca5e;
+	border-radius: 6px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.logo_wrap {
+	margin-left: 200px;
+	margin-top: 140px;
+	position: relative;
+	width: 216px;
+}
+.aboutus {
+	font-family: "BenderRegular";
+	font-size: 18px;
+}
+.aboutus h3 {
+	font-family: "RobotoBold";
+	text-align: center;
+	font-size: 24px;
+}
+.aboutus hr {
+	border: 1px solid #000;
+	width: 100%;
+
+}
+
+.aboutus .about_icons {
+	left: 20px;
+	margin: 10px;
+	padding: 15px;
+	text-align: center;
+	top: 20px;
+}
+.interaction .ia_img {
+position: relative;
+}
+.interaction h2 {
+	font-family: "RobotoBold";
+	text-align: center;
+	font-size: 30px;
+}
+.interaction img {
+	position: absolute;
+}
+.interaction .ia_txt1 {
+    left: 119px;
+    position: relative;
+    top: 133px;
+        width: 300px;
+}
+.interaction .ia_txt2 {
+    left: 463px;
+    position: relative;
+    top: 5px;
+        width: 300px;
+}
+.interaction .ia_txt3 {
+    left: 473px;
+    position: relative;
+    top: 92px;
+        width: 300px;
+}
+.interaction .ia_txt4 {
+    left: 189px;
+    position: relative;
+    top: 54px;
+        width: 300px;
+}
+.interaction .ia_txt5 {
+    left: 367px;
+    position: relative;
+    top: 109px;
+        width: 300px;
+}
+
+.interaction .ia_img {
+	font-family: "BenderRegular";
+	font-size: 22px;
+}
+.interaction .ia_logo {
+	position: relative;
+	top: 100px;
+	left: 50px;
+}
+.interaction .ia_logo {
+    position: relative;
+    top: 275px;
+}
